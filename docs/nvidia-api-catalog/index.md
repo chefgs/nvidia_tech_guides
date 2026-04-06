@@ -9,7 +9,7 @@ The NVIDIA API Catalog (available at [build.nvidia.com](https://build.nvidia.com
 ## Articles
 
 - [NVIDIA API Catalog Explained: Hosted AI Models and APIs for Developers](api-catalog-intro)
-- [Getting Started with NVIDIA APIs: Organisations, API Keys, and Your First API Call](getting-started-api-keys)
+- [Getting Started with NVIDIA APIs: Organizations, API Keys, and Your First API Call](getting-started-api-keys)
 
 ---
 

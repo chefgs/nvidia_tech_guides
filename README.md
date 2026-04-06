@@ -28,7 +28,7 @@ A knowledge-sharing repository for NVIDIA technology learnings — organised by 
 - [NVIDIA RAPIDS Explained: GPU-Accelerated Data Science for Python Practitioners](docs/nvidia-rapids/rapids-explained.md)
 - [NVIDIA cuDNN Explained: The GPU Primitives Library Powering Deep Learning Frameworks](docs/nvidia-cudnn/cudnn-explained.md)
 - [NVIDIA API Catalog Explained: Hosted AI Models and APIs for Developers](docs/nvidia-api-catalog/api-catalog-intro.md)
-- [Getting Started with NVIDIA APIs: Organisations, API Keys, and Your First API Call](docs/nvidia-api-catalog/getting-started-api-keys.md)
+- [Getting Started with NVIDIA APIs: Organizations, API Keys, and Your First API Call](docs/nvidia-api-catalog/getting-started-api-keys.md)
 - [Understanding Large Language Models: Architecture, Training, and What Makes Them Work](docs/ai-trends/llm-fundamentals.md)
 - [Retrieval-Augmented Generation (RAG) Explained: How It Works, Why It Matters, and How to Build It](docs/ai-trends/rag-fundamentals.md)
 

@@ -35,6 +35,6 @@ Guides are organized by NVIDIA technology, mirroring the structure of [docs.nvid
 - [NVIDIA RAPIDS Explained: GPU-Accelerated Data Science for Python Practitioners](nvidia-rapids/rapids-explained)
 - [NVIDIA cuDNN Explained: The GPU Primitives Library Powering Deep Learning Frameworks](nvidia-cudnn/cudnn-explained)
 - [NVIDIA API Catalog Explained: Hosted AI Models and APIs for Developers](nvidia-api-catalog/api-catalog-intro)
-- [Getting Started with NVIDIA APIs: Organisations, API Keys, and Your First API Call](nvidia-api-catalog/getting-started-api-keys)
+- [Getting Started with NVIDIA APIs: Organizations, API Keys, and Your First API Call](nvidia-api-catalog/getting-started-api-keys)
 - [Understanding Large Language Models: Architecture, Training, and What Makes Them Work](ai-trends/llm-fundamentals)
 - [Retrieval-Augmented Generation (RAG) Explained: How It Works, Why It Matters, and How to Build It](ai-trends/rag-fundamentals)

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Getting Started with NVIDIA APIs: Organisations, API Keys, and Your First API Call"
+title: "Getting Started with NVIDIA APIs: Organizations, API Keys, and Your First API Call"
 permalink: /nvidia-api-catalog/getting-started-api-keys/
 ---
 
-# Getting Started with NVIDIA APIs: Organisations, API Keys, and Your First API Call
+# Getting Started with NVIDIA APIs: Organizations, API Keys, and Your First API Call
 
-This guide walks through the complete process of accessing the NVIDIA API Catalog: creating an account, setting up an organisation, generating API keys, and making your first authenticated API call. The NVIDIA API Catalog is hosted at [build.nvidia.com](https://build.nvidia.com) and provides access to hundreds of AI models through standard REST APIs.
+This guide walks through the complete process of accessing the NVIDIA API Catalog: creating an account, setting up an organization, generating API keys, and making your first authenticated API call. The NVIDIA API Catalog is hosted at [build.nvidia.com](https://build.nvidia.com) and provides access to hundreds of AI models through standard REST APIs.
 
 ---
 
@@ -50,49 +50,49 @@ Before generating an API key, you can try any model in the browser playground �
 
 ---
 
-## Step 3: Create an Organisation
+## Step 3: Create an Organization
 
-NVIDIA's API platform supports **organisations** — shared workspaces where teams can collaborate, share API keys, manage billing, and set usage policies.
+NVIDIA's API platform supports **organizations** — shared workspaces where teams can collaborate, share API keys, manage billing, and set usage policies.
 
-### Why Use an Organisation?
+### Why Use an Organization?
 
-- **Centralised billing**: Usage charges are tracked at the organisation level, not per individual user
+- **Centralized billing**: Usage charges are tracked at the organization level, not per individual user
 - **Team access management**: Invite team members and control their roles
-- **Shared API keys**: Keys created under an organisation are available to all authorised members
+- **Shared API keys**: Keys created under an organization are available to all authorized members
 - **Usage monitoring**: View consumption across your team in one place
-- **Enterprise controls**: For paid plans, organisations are required for invoicing and support
+- **Enterprise controls**: For paid plans, organizations are required for invoicing and support
 
-### How to Create an Organisation
+### How to Create an Organization
 
 1. After signing in, click your profile avatar or name in the top-right corner.
-2. Select **Organisations** or **My Organisation** from the dropdown menu.
-3. Click **Create Organisation** or **New Organisation**.
-4. Fill in the organisation details:
-   - **Organisation Name**: Your company or project name (e.g., `Acme AI Team`)
-   - **Organisation Slug**: A URL-friendly identifier (e.g., `acme-ai`)
+2. Select **Organizations** or **My Organization** from the dropdown menu.
+3. Click **Create Organization** or **New Organization**.
+4. Fill in the organization details:
+   - **Organization Name**: Your company or project name (e.g., `Acme AI Team`)
+   - **Organization Slug**: A URL-friendly identifier (e.g., `acme-ai`)
    - **Description** (optional): Brief description of your team or use case
-5. Click **Create** to create the organisation.
+5. Click **Create** to create the organization.
 
-You are automatically assigned the **Owner** role in the organisation.
+You are automatically assigned the **Owner** role in the organization.
 
 ### Inviting Team Members
 
-To add collaborators to your organisation:
+To add collaborators to your organization:
 
-1. Navigate to **Organisation Settings** → **Members**.
+1. Navigate to **Organization Settings** → **Members**.
 2. Click **Invite Members**.
 3. Enter the email address of the person to invite.
 4. Select their role:
    - **Owner**: Full administrative access — can manage billing, keys, and members
    - **Admin**: Can manage keys and invite members but not change billing
-   - **Member**: Can use the API catalog and view organisation keys
+   - **Member**: Can use the API catalog and view organization keys
 5. Send the invitation. The invitee receives an email to join.
 
 ---
 
 ## Step 4: Generate an API Key
 
-API keys authenticate your requests to the NVIDIA API endpoints. Keys can be scoped to a personal account or to an organisation.
+API keys authenticate your requests to the NVIDIA API endpoints. Keys can be scoped to a personal account or to an organization.
 
 ### Generating a Personal API Key
 
@@ -103,10 +103,10 @@ API keys authenticate your requests to the NVIDIA API endpoints. Keys can be sco
 5. Click **Generate**.
 6. **Copy the key immediately** — the full key value is only displayed once. Store it securely.
 
-### Generating an Organisation API Key
+### Generating an Organization API Key
 
-1. Sign in and navigate to your organisation via the top-right profile menu.
-2. Go to **Organisation Settings** → **API Keys**.
+1. Sign in and navigate to your organization via the top-right profile menu.
+2. Go to **Organization Settings** → **API Keys**.
 3. Click **Generate API Key**.
 4. Give the key a name that identifies its purpose (e.g., `prod-backend`, `data-team`, `staging`).
 5. Optionally set an **expiry date** for security compliance.
@@ -312,7 +312,7 @@ for chunk in stream:
 ### Viewing Usage
 
 1. Sign in to [build.nvidia.com](https://build.nvidia.com).
-2. Navigate to your profile or organisation settings.
+2. Navigate to your profile or organization settings.
 3. Select **Usage** or **Billing** from the navigation.
 4. View token consumption broken down by model, date range, and API key.
 
@@ -347,7 +347,7 @@ def call_with_retry(client, max_retries=5, **kwargs):
 
 For production workloads, upgrade from the free tier through the NVIDIA Developer portal:
 
-1. Go to your organisation settings → **Billing**.
+1. Go to your organization settings → **Billing**.
 2. Select a plan appropriate for your usage volume.
 3. Add a payment method.
 4. Higher-tier plans provide higher rate limits, priority access, and enterprise support options.
@@ -441,8 +441,8 @@ Because both use OpenAI-compatible APIs, your application code does not change �
 Getting started with the NVIDIA API Catalog takes only a few minutes:
 
 1. Create an NVIDIA account at [build.nvidia.com](https://build.nvidia.com)
-2. Create an organisation for team-based access and billing management
-3. Generate an API key (personal or organisation-scoped)
+2. Create an organization for team-based access and billing management
+3. Generate an API key (personal or organization-scoped)
 4. Set the key as an environment variable
 5. Start calling NVIDIA-hosted AI models using the OpenAI-compatible API
 

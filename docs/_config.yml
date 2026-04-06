@@ -1,0 +1,31 @@
+title: NVIDIA Tech Guides
+description: >
+  A knowledge-sharing site for NVIDIA technology learnings by Saravanan Gnanaguru
+  (https://gsaravansn.dev), part of the NVIDIA Developer Program.
+baseurl: "/nvidia_tech_guides"
+url: "https://chefgs.github.io"
+
+theme: minima
+
+author:
+  name: Saravanan Gnanaguru
+  url: https://gsaravansn.dev
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from build
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Navigation
+header_pages:
+  - index.md

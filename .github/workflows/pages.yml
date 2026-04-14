@@ -30,7 +30,6 @@ jobs:
           {
             echo '---'
             echo 'layout: home'
-            echo 'title: NVIDIA Tech Guides'
             echo '---'
             echo
             sed -E \

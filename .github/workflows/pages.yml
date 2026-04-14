@@ -22,6 +22,21 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Sync root README to docs index
+        run: |
+          {
+            echo '---'
+            echo 'layout: home'
+            echo 'title: NVIDIA Tech Guides'
+            echo '---'
+            echo
+            sed -E \
+              -e 's#\]\(docs/#](#g' \
+              -e 's#\]\(([^)]+)\.md\)#](\1)#g' \
+              -e 's#\]\(LICENSE\)#](https://github.com/chefgs/nvidia_tech_guides/blob/main/LICENSE)#g' \
+              README.md
+          } > docs/index.md
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

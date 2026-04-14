@@ -1,6 +1,6 @@
 # NVIDIA Tech Guides
 
-> **About the author:** I'm Saravanan Gnanaguru ([gsaravansn.dev](https://gsaravansn.dev)), part of the NVIDIA Developer Program. I read about NVIDIA technologies and publish articles here for others to consume.
+> **About the author:** I'm Saravanan Gnanaguru ([gsaravansn.dev](https://gsaravanan.dev)), part of the NVIDIA Developer Program. I read about NVIDIA technologies and publish articles here for others to consume.
 
 A knowledge-sharing repository for NVIDIA technology learnings — organised by technology area, inspired by the [NVIDIA Docs](https://docs.nvidia.com) catalogue.
 

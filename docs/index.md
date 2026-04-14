@@ -1,6 +1,5 @@
 ---
 layout: home
-title: NVIDIA Tech Guides
 ---
 
 > **About:** I'm Saravanan Gnanaguru ([gsaravansn.dev](https://gsaravansn.dev)), part of the NVIDIA Developer Program. I read about NVIDIA technologies and publish articles here for others to consume.

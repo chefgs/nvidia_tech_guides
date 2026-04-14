@@ -7,7 +7,9 @@ url: "https://chefgs.github.io"
 
 theme: minima
 
-author: Saravanan Gnanaguru (https://gsaravansn.dev)
+author:
+  name: Saravanan Gnanaguru
+  url: https://gsaravansn.dev
 
 # Build settings
 markdown: kramdown

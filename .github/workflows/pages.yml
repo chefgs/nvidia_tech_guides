@@ -22,23 +22,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Sync root README to docs index
-        env:
-          REPOSITORY: ${{ github.repository }}
-          DEFAULT_BRANCH: ${{ github.event.repository.default_branch || 'main' }}
-        run: |
-          {
-            echo '---'
-            echo 'layout: home'
-            echo '---'
-            echo
-            sed -E \
-              -e 's#\]\(docs/([A-Za-z0-9_./-]+)\.md\)#](\1)#g' \
-              -e 's#\]\(docs/([A-Za-z0-9_./-]+/)\)#](\1)#g' \
-              -e "s#\]\(LICENSE\)#](https://github.com/${REPOSITORY}/blob/${DEFAULT_BRANCH}/LICENSE)#g" \
-              README.md
-          } > docs/index.md
-
       - name: Setup Pages
         uses: actions/configure-pages@v5
 

@@ -11,6 +11,17 @@ author:
   name: Saravanan Gnanaguru
   url: https://gsaravanan.dev
 
+header_pages:
+  - nvidia-nim/index.md
+  - nvidia-tensorrt/index.md
+  - nvidia-triton/index.md
+  - nvidia-nemo/index.md
+  - nvidia-cuda/index.md
+  - nvidia-rapids/index.md
+  - nvidia-cudnn/index.md
+  - nvidia-api-catalog/index.md
+  - ai-trends/index.md
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
